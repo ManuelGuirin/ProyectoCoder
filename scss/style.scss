@@ -1,0 +1,34 @@
+@import "colores";
+@import "sizes";
+.cacti__main--img{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.boton__video{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+$anchoFijo:100%;
+
+.musica__playlist--titulo{
+    width: ($anchoFijo/2);
+    background-color:$TRAVIS-SCOTT-3-hex;
+    color:$TRAVIS-SCOTT-2-hex ;
+}
+$tamanioPantalla:desktop;
+.musica__playlist--titulo .musica__discos--titulo{
+    @if $tamanioPantalla == desktop {
+        font-size: 50px;
+        text-align: center;
+        padding: 50px;
+        text-transform: capitalize;
+    }@else if $tamanioPantalla == mobile {
+        font-size: 25px;
+        text-align: right;
+        padding: 20px;
+    }@else{
+        font-size: 30;
+        text-align: justify;
+    }
+}

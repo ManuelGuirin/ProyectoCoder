@@ -1,0 +1,22 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+.cacti__main--img {
+  width: 100%;
+  float: left;
+  text-align: center; }
+
+.boton__video {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.musica__playlist--titulo {
+  width: 50%;
+  background-color: #593E2E;
+  color: #D9D3C7; }
+
+.musica__playlist--titulo .musica__discos--titulo {
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+  text-transform: capitalize; }
