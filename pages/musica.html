@@ -8,6 +8,7 @@
     <meta name="keywords" content="Travis Scott, Travis Scott fan page, Cactus Jack, Astroworld, 
     Travis Scott canciones, Travis Scott playlists, discografía">
     <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
@@ -42,7 +43,7 @@
             </div>
 
         </div>
-      <h1 class="musica__playlist--titulo col-lg-12 col-xs-12 text-white my-3">Playlists</h1>
+      <h1 data-aos="zoom-in" class="col-lg-12 col-xs-12 text-white my-3">Playlists</h1>
       <div id="carouselExampleControls" class="carousel slide my-4" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -61,33 +62,60 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <h1 class="musica__discos--titulo col-lg-12 col-xs-12 text-white my-2">Discografía</h1>
-      <div id="carouselExampleControls" class="carousel slide my-4" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <iframe class="d-block w-100" src="https://open.spotify.com/embed/album/4PWBTB6NYSKQwfo79I3prg" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="carousel-item">
-            <iframe class="d-block w-100" src="https://open.spotify.com/embed/album/42WVQWuf1teDysXiOupIZt" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="carousel-item">
-            <iframe class="d-block w-100" src="https://open.spotify.com/embed/album/6FED8aeieEnUWwQqAO9zT1" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="carousel-item">
-            <iframe class="d-block w-100" src="https://open.spotify.com/embed/album/41GuZcammIkupMPKH2OJ6I" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-          </div>
-          <div class="carousel-item">
-            <iframe class="d-block w-100" src="https://open.spotify.com/embed/album/1Sf8GsXG32t0jNrX11xqWx" width="400" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <div data-aos="zoom-in">
+      <h1 class="col-lg-12 col-xs-12 text-white my-3">Discografía</h1>
+      <div class="card-deck my-3"  >
+        <div class="card">
+          <img class="card-img-top" src="../assets/Jackboys.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">JACKBOYS</h5>
+            <p class="card-text">27 de diciembre de 2019. El rapero presenta a las estrellas de su sello discográfico Cactus Jack. 7 canciones, dando un total de 21 minutos</p>
+            <p class="card-text"><small class="text-white">2019 Epic Records. Con Cactus Jack</small></p>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="card">
+          <img class="card-img-top" src="../assets/ltigtASTROWORLDltigt-de-Travis-Scott-se-convertiraacute-en-un-parque-de-diversiones.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">ASTROWROLD</h5>
+            <p class="card-text">3 de agosto de 2018. Travis Scott envió a Apple Music un mensaje atribuido a su hija Stormi para anunciar la llegada de su tercer álbum: “Solo ABRÓCHENSE LOS CINTURONES DE SEGURIDAD”. 17 canciones, dando un total de 59 minutos</p>
+            <p class="card-text"><small class="text-white">2018 Epic Records/Sony. Con Cactus Jack y Grand Hustle</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../assets/rodeo.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">Rodeo (Expanded Edition)</h5>
+            <p class="card-text">4 de septiembre del 2015. El disco que lanzó su carrera a ser considerado una superestrella. 16 canciones, dando un total de 1 hora y 15 minutos.</p>
+            <p class="card-text"><small class="text-white">2015 Epic Records, una división de Sony Music Entertainment</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="card-deck my-3">
+        <div class="card">
+          <img class="card-img-top" src="../assets/birdsinthetrap.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">Birds in the Trap Sing McKnight </h5>           
+            <p class="card-text">2 de septiembre de 2016. En su segundo álbum Travis Scott vuela libre, disfrutando del botín de la fama. 14 canciones, dando com resultado 54 minutos de reproducción. </p>
+            <p class="card-text"><small class="text-white">2016 Epic Records, una división de Sony Music Entertainment</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../assets/jack huncho.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">Huncho Jack, Jack Huncho</h5>
+            <p class="card-text">21 de diciembre de 2017. Debut de el dúo de Travis Scott y Quavo lanzando este disco en conjunto con apariciones de otros grandes artistas. 13 canciones, brindando 41 minutos de reproducción.  </p>
+            <p class="card-text"><small class="text-white">2017 Cactus Jack, Epic Records, Grand Hustle y Motown Records</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="../assets/days before.jpg" alt="Card image cap">
+          <div class="card-body text-white rounded" style="background-color:#593E2E ;">
+            <h5 class="card-title">Days Before Rodeo</h5>
+            <p class="card-text">18 de agosto de 2014. Lanzado como precuela de su album "Rodeo" con apariciones desde Young Thug hasta Migos. 12 canciones, dando 50 minutos de reproducción </p>
+            <p class="card-text"><small class="text-white">2014 Epic Records, una división de Sony Music Entertainment y Grand Hustle</small></p>
+          </div>
+        </div>
       </div>
       <div class="p-3 mb-2 text-light" style="background-color:#402E23 ;">
         <nav class="nav nav-pills flex-column flex-sm-row">
@@ -97,7 +125,7 @@
           <a class="flex-sm-fill text-sm-center nav-link text-white" href="../pages/colab.html">Colab con nike</a>
           <a class="flex-sm-fill text-sm-center nav-link text-white" href="../pages/videos.html" tabindex="-1" aria-disabled="true">Videos</a>
         </nav>
-
+      </div>
       <footer class="text-center text-white" style="background-color:#593E2E ;">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
@@ -134,7 +162,10 @@
       </div>
       <!-- Copyright -->
     </footer>
-          
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script> 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
       </body>
